@@ -34,7 +34,7 @@ public class ParkingModule extends AbstractModule {
 		}
 	}
 	
-	private static class SurfaceParking extends AbstractAreaWorldObject
+	public static class SurfaceParking extends AbstractAreaWorldObject
 	implements TerrainBoundaryWorldObject, RenderableToAllTargets {
 		
 		public SurfaceParking(MapArea area) {

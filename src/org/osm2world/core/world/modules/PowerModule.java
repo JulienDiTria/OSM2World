@@ -114,8 +114,8 @@ public final class PowerModule extends AbstractModule {
 			area.addRepresentation(new PhotovoltaicPlant(area));
 		}
 	}
-	
-	private static final class PowerCabinet extends NoOutlineNodeWorldObject
+
+	public static final class PowerCabinet extends NoOutlineNodeWorldObject
 	implements RenderableToAllTargets {
 
 		public PowerCabinet(MapNode node) {
@@ -139,8 +139,8 @@ public final class PowerModule extends AbstractModule {
 		}
 		
 		}
-	
-	private final static class TowerConfig {
+
+	public final static class TowerConfig {
 		MapNode pos;
 		int cables;
 		int voltage;
@@ -158,8 +158,8 @@ public final class PowerModule extends AbstractModule {
 			return voltage >= 50000 || cables >= 6;
 		}
 	}
-	
-	private static final class Powerpole extends NoOutlineNodeWorldObject
+
+	public static final class Powerpole extends NoOutlineNodeWorldObject
 			implements RenderableToAllTargets {
 		
 		public Powerpole(MapNode node) {
@@ -196,8 +196,8 @@ public final class PowerModule extends AbstractModule {
 		}
 		
 	}
-	
-	private static final class WindTurbine extends NoOutlineNodeWorldObject
+
+	public static final class WindTurbine extends NoOutlineNodeWorldObject
 			implements RenderableToAllTargets {
 		
 		public WindTurbine(MapNode node) {
@@ -283,8 +283,8 @@ public final class PowerModule extends AbstractModule {
 		}
 		
 	}
-	
-	private static class PowerMinorLine
+
+	public static class PowerMinorLine
 		extends NoOutlineWaySegmentWorldObject
 		implements RenderableToAllTargets {
 		
@@ -326,7 +326,7 @@ public final class PowerModule extends AbstractModule {
 		
 	}
 
-	private final static class PowerLine
+	public final static class PowerLine
 		extends NoOutlineWaySegmentWorldObject
 		implements RenderableToAllTargets {
 
@@ -515,9 +515,9 @@ public final class PowerModule extends AbstractModule {
 		}
 		
 	}
-	
-	
-	private static final class PowerTower extends NoOutlineNodeWorldObject
+
+
+	public static final class PowerTower extends NoOutlineNodeWorldObject
 		implements RenderableToAllTargets {
 
 		private TowerConfig config;
@@ -566,7 +566,7 @@ public final class PowerModule extends AbstractModule {
 	}
 
 
-	private static final class HighVoltagePowerTower extends NoOutlineNodeWorldObject
+	public static final class HighVoltagePowerTower extends NoOutlineNodeWorldObject
 		implements RenderableToAllTargets {
 
 		private TowerConfig config;
@@ -773,8 +773,8 @@ public final class PowerModule extends AbstractModule {
 			}
 		}
 	}
-	
-	private static final class PhotovoltaicPlant extends AbstractAreaWorldObject
+
+	public static final class PhotovoltaicPlant extends AbstractAreaWorldObject
 		implements RenderableToAllTargets {
 
 		//TODO create individual EleConnector for panels
