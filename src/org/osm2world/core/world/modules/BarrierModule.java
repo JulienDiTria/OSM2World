@@ -277,7 +277,7 @@ public class BarrierModule extends AbstractModule {
 		}	
 	}
         
-        private static class PoleFence extends LinearBarrier {
+	private static class PoleFence extends LinearBarrier {
 		private Material material;
 		protected float barWidth;
 		protected float barGap;
@@ -352,7 +352,7 @@ public class BarrierModule extends AbstractModule {
 		}	
 	}
         
-        private static class CableBarrier extends PoleFence {
+	private static class CableBarrier extends PoleFence {
                 
 		public static boolean fits(TagGroup tags) {
 			return tags.contains("barrier", "cable_barrier");
@@ -371,7 +371,7 @@ public class BarrierModule extends AbstractModule {
 		}
 	}
         
-        private static class HandRail extends PoleFence {
+	private static class HandRail extends PoleFence {
 		public static boolean fits(TagGroup tags) {
 			return tags.contains("barrier", "handrail");
 		}

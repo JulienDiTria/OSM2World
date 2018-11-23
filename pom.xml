@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.osm2world</groupId>
     <artifactId>osm2world</artifactId>
-    <version>0.2.0-branch</version>
+    <version>0.2.1-branch</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
