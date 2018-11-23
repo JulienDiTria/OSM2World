@@ -82,13 +82,13 @@
             <artifactId>guava</artifactId>
             <version>19.0</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>java-ilp-jar</groupId>
             <artifactId>java-ilp-jar</artifactId>
             <version>1.2a</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/javailp/javailp-1.2a.jar</systemPath>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>com.jhlabs</groupId>
             <artifactId>javaproj</artifactId>
