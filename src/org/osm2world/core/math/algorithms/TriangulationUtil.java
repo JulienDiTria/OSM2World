@@ -11,7 +11,7 @@ import org.osm2world.core.math.SimplePolygonXZ;
 import org.osm2world.core.math.TriangleXZ;
 import org.osm2world.core.math.VectorXZ;
 
-import com.vividsolutions.jts.triangulate.ConstraintEnforcementException;
+import org.locationtech.jts.triangulate.ConstraintEnforcementException;
 
 /**
  * triangulation utility class that uses {@link EarClippingTriangulationUtil},

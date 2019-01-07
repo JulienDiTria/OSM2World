@@ -188,7 +188,7 @@ public class ImageExporter {
 		pBufferSizeY = min(canvasLimit, expectedMaxSizeY);
 				
 		drawable = factory.createOffscreenAutoDrawable(null,
-				cap, null, pBufferSizeX, pBufferSizeY, null);
+				cap, null, pBufferSizeX, pBufferSizeY);
 		listener = new ImageExporterGLEventListener();
 		drawable.addGLEventListener(listener);
 

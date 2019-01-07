@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.osm2world</groupId>
     <artifactId>osm2world</artifactId>
-    <version>0.2.1-branch</version>
+    <version>0.2.2-branch</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -164,11 +164,14 @@
             <version>2.1.5-01</version>            
             <classifier>natives-windows-i586</classifier>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.locationtech.jts/jts-core -->
         <dependency>
-            <groupId>com.vividsolutions</groupId>
-            <artifactId>jts</artifactId>
-            <version>1.12</version>
+            <groupId>org.locationtech.jts</groupId>
+            <artifactId>jts-core</artifactId>
+            <version>1.16.0</version>
         </dependency>
+
         <dependency>
             <groupId>com.datumbox</groupId>
             <artifactId>lpsolve</artifactId>
