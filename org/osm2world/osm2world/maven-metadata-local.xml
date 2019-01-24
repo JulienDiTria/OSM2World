@@ -3,13 +3,13 @@
   <groupId>org.osm2world</groupId>
   <artifactId>osm2world</artifactId>
   <versioning>
-    <release>0.2.2-branch</release>
+    <release>0.2.3-branch</release>
     <versions>
       <version>0.2.0-branch</version>
       <version>0.2.1-branch</version>
       <version>0.2.2-branch</version>
+      <version>0.2.3-branch</version>
     </versions>
-    <lastUpdated>20190107163919</lastUpdated>
+    <lastUpdated>20190124140526</lastUpdated>
   </versioning>
 </metadata>
-
