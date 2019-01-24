@@ -277,7 +277,7 @@ public class BarrierModule extends AbstractModule {
 		}	
 	}
         
-	private static class PoleFence extends LinearBarrier {
+	public static class PoleFence extends LinearBarrier {
 		private Material material;
 		protected float barWidth;
 		protected float barGap;
@@ -389,7 +389,7 @@ public class BarrierModule extends AbstractModule {
 		}
         }
 	
-	private static class Bollard extends NoOutlineNodeWorldObject
+	public static class Bollard extends NoOutlineNodeWorldObject
 			implements RenderableToAllTargets {
 
 		private static final float DEFAULT_HEIGHT = 1;

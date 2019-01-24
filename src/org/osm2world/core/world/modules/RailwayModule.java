@@ -64,7 +64,7 @@ public class RailwayModule extends ConfigurableWorldModule {
 		
 	}
 	
-	private static class Rail extends AbstractNetworkWaySegmentWorldObject
+	public static class Rail extends AbstractNetworkWaySegmentWorldObject
 		implements RenderableToAllTargets, TerrainBoundaryWorldObject {
 		
 		private static final float GROUND_WIDTH = 2.25f;

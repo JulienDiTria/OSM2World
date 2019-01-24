@@ -62,7 +62,7 @@ public class InvisibleModule extends AbstractModule {
 		}
 	}
 	
-	private static class InvisibleEleNode extends NoOutlineNodeWorldObject {
+	public static class InvisibleEleNode extends NoOutlineNodeWorldObject {
 		
 		public InvisibleEleNode(MapNode node) {
 			super(node);
@@ -74,8 +74,8 @@ public class InvisibleModule extends AbstractModule {
 		}
 		
 	}
-	
-	private static class InvisibleEleWaySegment
+
+	public static class InvisibleEleWaySegment
 			extends NoOutlineWaySegmentWorldObject {
 		
 		public InvisibleEleWaySegment(MapWaySegment segment) {
@@ -88,8 +88,8 @@ public class InvisibleModule extends AbstractModule {
 		}
 		
 	}
-	
-	private static class InvisibleEleArea
+
+	public static class InvisibleEleArea
 			extends AbstractAreaWorldObject {
 		
 		protected InvisibleEleArea(MapArea area) {

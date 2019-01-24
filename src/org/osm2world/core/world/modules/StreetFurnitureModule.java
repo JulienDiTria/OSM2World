@@ -241,7 +241,7 @@ public class StreetFurnitureModule extends AbstractModule {
 		
 	}
 	
-	private static final class Bench extends NoOutlineNodeWorldObject
+	public static final class Bench extends NoOutlineNodeWorldObject
 			implements RenderableToAllTargets {
 		
 		public Bench(MapNode node) {
@@ -792,7 +792,7 @@ public class StreetFurnitureModule extends AbstractModule {
 	
 	}
 	
-	private static final class BusStop extends NoOutlineNodeWorldObject
+	public static final class BusStop extends NoOutlineNodeWorldObject
 			implements RenderableToAllTargets {
 		
 		public BusStop(MapNode node) {
@@ -919,7 +919,7 @@ public class StreetFurnitureModule extends AbstractModule {
 	
 	}
 	
-	private static final class FireHydrant extends NoOutlineNodeWorldObject
+	public static final class FireHydrant extends NoOutlineNodeWorldObject
 			implements RenderableToAllTargets {
 		
 		public FireHydrant(MapNode node) {
@@ -1025,7 +1025,7 @@ public class StreetFurnitureModule extends AbstractModule {
 		
 	}
 	
-	private static final class Board extends NoOutlineNodeWorldObject
+	public static final class Board extends NoOutlineNodeWorldObject
 	implements RenderableToAllTargets {
 
 		public Board(MapNode node) {

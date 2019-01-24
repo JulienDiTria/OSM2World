@@ -61,7 +61,7 @@ public class BridgeModule extends AbstractModule {
 	
 	public static final double BRIDGE_UNDERSIDE_HEIGHT = 0.2f;
 		
-	private static class Bridge extends BridgeOrTunnel
+	public static class Bridge extends BridgeOrTunnel
 			implements RenderableToAllTargets {
 		
 		public Bridge(MapWaySegment segment,

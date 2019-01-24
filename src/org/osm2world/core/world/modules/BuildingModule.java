@@ -2295,7 +2295,7 @@ public class BuildingModule extends ConfigurableWorldModule {
 		
 	}
 	
-	private static class BuildingEntrance implements NodeWorldObject,
+	public static class BuildingEntrance implements NodeWorldObject,
 		RenderableToAllTargets {
 		
 		private final BuildingPart buildingPart;
