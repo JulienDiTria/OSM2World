@@ -73,7 +73,7 @@ public class BarrierModule extends AbstractModule {
 		
 	}
 	
-	private static abstract class LinearBarrier
+	public static abstract class LinearBarrier
 		extends AbstractNetworkWaySegmentWorldObject
 		implements RenderableToAllTargets {
 				
@@ -109,6 +109,8 @@ public class BarrierModule extends AbstractModule {
 		public float getWidth() {
 			return width;
 		}
+
+		public float getHeight(){return height; }
 				
 	}
 		
@@ -418,7 +420,10 @@ public class BarrierModule extends AbstractModule {
 			target.drawColumn(Materials.CONCRETE,
 					null, getBase(), height, 0.15f, 0.15f, false, true);
 		}
-		
+
+		public float getHeight() {
+			return height;
+		}
 	}
 	
 	//TODO: bollard_count or similar tag exists? create "Bollards" rep.
