@@ -294,8 +294,8 @@ public class BuildingModule extends ConfigurableWorldModule {
 	
 	public static class BuildingPart implements RenderableToAllTargets {
 
-		private final Building building;
-		private final MapArea area;
+		public final Building building;
+		public final MapArea area;
 		private final PolygonWithHolesXZ polygon;
 		
 		private int buildingLevels;

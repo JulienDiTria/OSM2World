@@ -127,7 +127,7 @@ public class RoadModule extends ConfigurableWorldModule {
 		return tags.contains(new Tag("highway","steps"));
 	}
 
-	private static boolean isPath(TagGroup tags) {
+	public static boolean isPath(TagGroup tags) {
 		String highwayValue = tags.getValue("highway");
 		return "path".equals(highwayValue)
 			|| "footway".equals(highwayValue)
