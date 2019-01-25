@@ -144,7 +144,7 @@ public class RoadModule extends ConfigurableWorldModule {
 					|| (tags.contains("highway", "motorway_link"))));
 	}
 
-	private static int getDefaultLanes(TagGroup tags) {
+	public static int getDefaultLanes(TagGroup tags) {
 		String highwayValue = tags.getValue("highway");
 		if (highwayValue == null
 				|| isPath(tags)
