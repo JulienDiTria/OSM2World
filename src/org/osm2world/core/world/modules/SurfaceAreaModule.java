@@ -287,9 +287,9 @@ public class SurfaceAreaModule extends AbstractModule {
 					
 				} catch (TriangulationException e) {
 					
-					System.err.println("Poly2Tri exception for " + this + ":");
-					e.printStackTrace();
-					System.err.println("... falling back to JTS triangulation.");
+//					System.err.println("Poly2Tri exception for " + this + ":");
+//					e.printStackTrace();
+//					System.err.println("... falling back to JTS triangulation.");
 					
 					triangulationXZ.addAll(JTSTriangulationUtil.triangulate(
 							polygon.getOuter(),
